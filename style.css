@@ -1,0 +1,215 @@
+*{
+    border: 0;
+    padding: 0;
+}
+body,html{
+    background-image: linear-gradient(45deg,violet,indigo,blue,green,yellow,orange,red);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+#nav div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+#nav div a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+    color: white;
+}
+#nav div a:hover{
+    border-radius: 30px;
+    background-color: rgb(182, 179, 179);
+    color: white;
+}
+.img{
+    background-image: url('rohan.png');
+    background-size: cover;
+    border: 2px solid gray;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+}
+#r1,#r2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#r1 div,#r2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 600px;
+    margin: 20px;
+    border: 2px solid black;
+}
+#r1 div h1,#r2 div h1{
+    font-size: 2rem;
+    height: 100%;
+}
+#r1 div p,#r2 div p{
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+#r2 div span a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#r2 div span{
+    height: 100%;
+    font-size: 1.3rem;
+}
+#subcontact{
+    height:  100%;
+    display: flex;
+    flex-direction: row;
+}
+#subcontact a{
+    text-decoration: none;
+    margin: 10px;
+}
+.insta {
+    height: 27px;
+    width: 27px;
+    background-image: url('i.png');
+    background-size: 27px 27px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: socialmedia;
+    margin: 3px;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    border: 1px solid white;
+    padding: 2px;
+}
+
+.whats {
+    height: 27px;
+    width: 27px;
+    background-image: url('w.png');
+    background-size: 27px 27px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: socialmedia;
+    margin: 3px;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    border: 1px solid white;
+    padding: 2px;
+}
+
+.face {
+    height: 27px;
+    width: 27px;
+    background-image: url('f.png');
+    background-size: 27px 27px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: socialmedia;
+    margin: 3px;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    border: 1px solid white;
+    padding: 2px;
+}
+
+.tele {
+    height: 27px;
+    width: 27px;
+    background-image: url('t.png');
+    background-size: 27px 27px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: socialmedia;
+    margin: 3px;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    border: 1px solid white;
+    padding: 2px;
+}
+.call {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    background-image: url('phone1.png');
+    background-size: 30px 30px;
+    animation-name: call;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@keyframes socialmedia {
+    0% {
+        transform: skewX(-15deg);
+    }
+
+    5% {
+        transform: skewX(15deg);
+    }
+
+    10% {
+        transform: skewX(-15deg);
+    }
+
+    15% {
+        transform: skewX(15deg);
+    }
+
+    20% {
+        transform: skewX(0deg);
+    }
+
+    100% {
+        transform: skewX(0deg);
+    }
+}
+@keyframes call {
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(5px);
+    }
+
+    40% {
+        transform: translateY(-5px);
+    }
+
+    60% {
+        transform: translateY(5px);
+    }
+
+    80% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
