@@ -10,8 +10,8 @@ body,html{
     flex-direction: column;
 }
 #r1 div,#r2 div{
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 400px;
 }
 #nav{
     flex-direction: column;   
