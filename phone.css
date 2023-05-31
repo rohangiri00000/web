@@ -3,8 +3,8 @@
     margin: 0;
 }
 body,html{
-    height: 200%;
-    width: 120%
+    height: 180%;
+    width: 150%
 }
 #r1,#r2{
     flex-direction: column;
