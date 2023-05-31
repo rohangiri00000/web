@@ -11,7 +11,7 @@ body,html{
 }
 #r1 div,#r2 div{
     height: 250px;
-    width: 200px;
+    width: 300px;
 }
 #nav{
     flex-direction: column;   
